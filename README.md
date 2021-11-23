@@ -1,7 +1,7 @@
 
 Main branch status
 
-![main](https://github.com/agamova/yamdb_final/workflows/yamdb_workflow/badge.svg)
+[GITHUB-BADGE](https://github.com/agamova/yamdb_final/workflows/yamdb_workflow/badge.svg)
 
 
 
