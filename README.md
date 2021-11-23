@@ -1,3 +1,10 @@
+
+Main branch status
+
+![main](https://github.com/agamova/yamdb_final/workflows/yamdb_workflow/badge.svg)
+
+
+
 # Проект YaMDb
 Проект YaMDb собирает отзывы (Review) пользователей на произведения (Titles). 
 Произведения делятся на категории: «Книги», «Фильмы», «Музыка». Список категорий (Category) 

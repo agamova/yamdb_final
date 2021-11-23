@@ -10,7 +10,7 @@ services:
       - ./.env
 
   web:
-    build: .
+    image: agamova/yamdb:latest
     restart: always
     volumes:
       - static_value:/code/static/
