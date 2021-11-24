@@ -12,6 +12,10 @@ services:
   web:
     image: agamova/yamdb:latest
     restart: always
+    command: bash -c "python3 manage.py makemigrations
+      && python3 manage.py migrate
+      && python3 manage.py collectstatic
+      && gunicorn api_yamdb.wsgi:application --bind 0.0.0.0:8000"
     volumes:
       - static_value:/code/static/
       - media_value:/code/media/
