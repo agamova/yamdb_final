@@ -44,7 +44,7 @@ git clone https://github.com/agamova/infra_sp2.git
 
  Выполнить миграции, создать суперюзера и собрать статику:  
 
-`docker-compose exec web python manage.py makemigrations`  
+ `docker-compose exec web python manage.py makemigrations`  
  `docker-compose exec web python manage.py migrate`  
  `docker-compose exec web python manage.py createsuperuser`  
  `docker-compose exec web python manage.py collectstatic`
