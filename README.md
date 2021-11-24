@@ -1,8 +1,5 @@
 
-Main branch status
-
 [GITHUB-BADGE](https://github.com/agamova/yamdb_final/workflows/yamdb_workflow/badge.svg)
-
 
 
 # Проект YaMDb
