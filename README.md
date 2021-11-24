@@ -1,5 +1,5 @@
 
-[GITHUB-BADGE](https://github.com/agamova/yamdb_final/workflows/yamdb_workflow/badge.svg)
+![yamdb_final workflow](https://github.com/agamova/yamdb_final/workflows/yamdb_workflow/badge.svg)
 
 
 # Проект YaMDb
