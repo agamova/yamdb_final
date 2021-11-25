@@ -11,7 +11,10 @@ SECRET_KEY = os.environ.get('SECRET_KEY', default='abc')
 
 DEBUG = False
 
-ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS', default='*').split(',')
+ALLOWED_HOSTS = os.environ.get(
+    'ALLOWED_HOSTS',
+    default='yamdb.agamova.ru'
+).split(',')
 
 INSTALLED_APPS = [
     'django.contrib.admin',
