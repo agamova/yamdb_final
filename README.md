@@ -61,7 +61,5 @@ git clone https://github.com/agamova/infra_sp2.git
 `docker-compose exec web python manage.py loaddata fixtures.json`
 
 
-
-
 Документация API YaMDb по адресу:
 `http://127.0.0.1/redoc/`
