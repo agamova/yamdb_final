@@ -108,18 +108,18 @@ def parse_genre_title(model_name, path):
 
 
 import_list = [
-    ('Genre', 'static/data/genre.csv', parse_simple),
-    ('Category', 'static/data/category.csv', parse_simple),
-    ('User', 'static/data/users.csv', parse_users),
-    ('Title', 'static/data/titles.csv', parse_title),
-    ('Review', 'static/data/review.csv', parse_review),
-    ('Comment', 'static/data/comments.csv', parse_comment),
-    (None, 'static/data/genre_title.csv', parse_genre_title),
+    ('Genre', 'api/static/data/genre.csv', parse_simple),
+    ('Category', 'api/static/data/category.csv', parse_simple),
+    ('User', 'api/static/data/users.csv', parse_users),
+    ('Title', 'api/static/data/titles.csv', parse_title),
+    ('Review', 'api/static/data/review.csv', parse_review),
+    ('Comment', 'api/static/data/comments.csv', parse_comment),
+    (None, 'api/static/data/genre_title.csv', parse_genre_title),
 ]
 
 
 class Command(BaseCommand):
-    help = ('Добавляет данные из csv файлов директории static/data/ '
+    help = ('Добавляет данные из csv файлов директории api/static/data/ '
             'в базу данных sqlite3. Перед добавлением удаляет все записи '
             'используемых моделей!')
 

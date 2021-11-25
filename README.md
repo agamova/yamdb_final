@@ -1,6 +1,9 @@
 
 ![yamdb_final workflow](https://github.com/agamova/yamdb_final/workflows/yamdb_workflow/badge.svg)
 
+http://yamdb.agamova.ru/admin
+http://yamdb.agamova.ru/redoc
+
 
 # Проект YaMDb
 Проект YaMDb собирает отзывы (Review) пользователей на произведения (Titles). 
@@ -23,12 +26,12 @@
 Клонировать репозиторий и перейти в него в командной строке:
 git clone https://github.com/agamova/infra_sp2.git
 
+Активироать виртуальное окружение
 
-
-В корне проекта создать файл .env:
+В корне проекта создать файл .env(образец .env.template):
 
 `SECRET_KEY='YOUR_SECRET_KEY'`  
-`ALLOWED_HOSTS='*'` 
+`ALLOWED_HOSTS='example_host'` 
 `DB_ENGINE=django.db.backends.postgresql`
 `DB_NAME=postgres`  
 `POSTGRES_USER=postgres`  
@@ -52,11 +55,6 @@ git clone https://github.com/agamova/infra_sp2.git
 
 
 Заполнить базу данными из csv файлов:
-1 способ:  
-
-`docker-compose exec web python manage.py loader_csv`
-
-2 способ:  
 
 `docker-compose exec web python manage.py loaddata fixtures.json`
 
